@@ -36,6 +36,24 @@ parts {
         background {
             image   background_land.png
         }
+
+        buttons {
+            volume-up {
+                image   volume-up_land.png
+                x       511
+                y       1488
+            }
+            volume-down {
+                image   volume-down_land.png
+                x       706
+                y       1488
+            }
+            power {
+                image   power_land.png
+                x       355
+                y       292
+            }
+        }
     }
 }
 
